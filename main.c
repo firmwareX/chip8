@@ -274,8 +274,8 @@ track(char *label, u32 *t)
 int
 main(int argc, char *argv[])
 {
-  if(argc == 1) {
-    printf("Usage: chip8 <rom> <scale>");
+  if(argc != 3) {
+    printf("\nUsage: chip8 <rom> <scale>\n");
     exit(1);
   }
 
