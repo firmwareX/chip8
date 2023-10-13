@@ -178,12 +178,26 @@ InitSDL(char *name, int width, int height, int scale)
     exit(1);
   }
 
-  SDL_Window *win = SDL_CreateWindow(name,
+  SDL_Window *win;
+
+  if(scale==0){
+    win = SDL_CreateWindow(name,
+    SDL_WINDOWPOS_CENTERED,
+    SDL_WINDOWPOS_CENTERED,
+    width,
+    height,
+    SDL_WINDOW_SHOWN);
+    SDL_SetWindowFullscreen(win, SDL_WINDOW_FULLSCREEN);
+  }else{
+    win = SDL_CreateWindow(name,
     SDL_WINDOWPOS_CENTERED,
     SDL_WINDOWPOS_CENTERED,
     width * scale,
     height * scale,
     SDL_WINDOW_SHOWN);
+  }
+
+
   if(win == NULL) {
     printf("error: %s\n", SDL_GetError());
     exit(1);

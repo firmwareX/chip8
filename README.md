@@ -37,6 +37,7 @@ A 0 B F        Z X C V
 Linux:
 
 - install SDL2: `sudo apt install libsdl2-dev`
+- Git clone the repo
 - `make linux && make test`
 
 Mac OS:
@@ -77,6 +78,10 @@ eg:
 ./bin/chip8 rom/test_opcode.ch8 10
 ```
 
+fullscreen
+```bash
+./bin/chip8 rom/test_opcode.ch8 0
+```
 ## TypeScript Version
 
 - https://github.com/bobframework/chip8
