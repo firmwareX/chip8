@@ -71,16 +71,16 @@ All others are games for fully testing our emulator 🎮.
 eg:
 
 ```bash
-./bin/chip8 rom/test_opcode.ch8 5
+./bin/chip8 rom/TEST 5
 ```
 
 ```bash
-./bin/chip8 rom/test_opcode.ch8 10
+./bin/chip8 rom/IBM 10
 ```
 
 fullscreen
 ```bash
-./bin/chip8 rom/test_opcode.ch8 0
+./bin/chip8 rom/TEST 0
 ```
 ## TypeScript Version
 
