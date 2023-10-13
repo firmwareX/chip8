@@ -85,3 +85,13 @@ fullscreen
 ## TypeScript Version
 
 - https://github.com/bobframework/chip8
+
+## Reference
+
+https://tobiasvl.github.io/blog/write-a-chip-8-emulator/
+
+https://johnearnest.github.io/chip8Archive/?sort=platform
+
+http://johnearnest.github.io/Octo/
+
+https://en.wikipedia.org/wiki/CHIP-8

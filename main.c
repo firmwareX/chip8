@@ -35,7 +35,7 @@ MapForChip8(u32 keycode)
     case SDLK_3:
       return 3;
     case SDLK_4:
-      return 4;
+      return 12;
 
     case SDLK_q:
       return 4;
