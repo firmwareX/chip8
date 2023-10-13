@@ -275,14 +275,14 @@ int
 main(int argc, char *argv[])
 {
   if(argc == 1) {
-    printf("Usage: chip8 <rom>");
+    printf("Usage: chip8 <rom> <scale>");
     exit(1);
   }
 
   // Seed the rand
   srand(time(0));
 
-  int scale = 10;
+  int scale = atoi(argv[2]);
   InitSDL("Chip8 Emulator", SCREEN_WIDTH, SCREEN_HEIGHT, scale);
 
   file_content content = ReadFile(argv[1]);

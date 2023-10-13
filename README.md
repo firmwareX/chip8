@@ -63,6 +63,20 @@ There are a few roms in the `rom` directory of repo.
 
 All others are games for fully testing our emulator 🎮.
 
+## Usage
+
+`Usage: chip8 <rom> <scale>`
+
+eg:
+
+```bash
+./bin/chip8 rom/test_opcode.ch8 5
+```
+
+```bash
+./bin/chip8 rom/test_opcode.ch8 10
+```
+
 ## TypeScript Version
 
 - https://github.com/bobframework/chip8

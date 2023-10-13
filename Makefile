@@ -1,5 +1,5 @@
 test:
-	./bin/chip8 rom/test_opcode.ch8
+	./bin/chip8 rom/test_opcode.ch8 10
 
 linux:
 	mkdir -p bin
